@@ -121,6 +121,27 @@ This repository is organized as follows:
 - Sales
 - Schedule
 
+## Example Scripts
+
+The repository includes working example scripts to help you get started:
+
+### PowerShell Example
+[cwm-api-demo.ps1](examples/cwm-api-demo.ps1) - A comprehensive PowerShell script demonstrating how to:
+- Authenticate with the ConnectWise Manage API
+- Retrieve companies, tickets, and members
+- Create tickets and add notes
+- Add time entries
+- And more
+
+### Python Example
+[cwm_api_demo.py](examples/cwm_api_demo.py) - A Python equivalent of the PowerShell demo that shows:
+- Authentication with the API
+- Working with companies and tickets
+- Creating and updating records
+- Error handling and best practices
+
+To run these examples, update the configuration variables at the top of each script with your ConnectWise Manage credentials and server information.
+
 ## API Base URL
 
 The ConnectWise Manage API base URL follows this format:
